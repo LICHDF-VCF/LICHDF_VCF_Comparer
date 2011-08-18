@@ -337,7 +337,7 @@ print CONT "e ------+----------+----------\n";
 printf CONT "q  Homo |  %6s  |  %6s  \n", $contTable{'HETM'}, $contTable{'HOMHOM'}+$numHomoMissing;
 print CONT "\n\n";
 
-print CONT "Number agree: $numAgree\t\tNumber missing from VCF: $numMissing\n";
+print CONT "Number agree: $numAgree\t\t\tNumber missing from VCF: $numMissing\n";
 
 $ratio = $numAgree/$numDisagree;
 $ratio = 0 unless defined $ratio;
