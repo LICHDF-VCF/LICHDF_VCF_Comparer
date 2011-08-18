@@ -1,0 +1,1 @@
+Usage: ./vcf_hdf_comp2.pl --vcf=vcf_file --hdf=hdf_file --animal=animal_key [--prefix=prefix] [--quality=q] [--depth=d] [--smoothing=s]
